@@ -1,0 +1,45 @@
+
+body{
+  background-color: #93b6b8; text-align: center;
+}
+
+p{
+  border: 1px black solid;
+  padding: 20px;
+  box-shadow: 5px 10px;
+  font-size: 25px;
+  border-radius: 50px 20px;
+  line-height: 1.6;
+}
+
+footer{
+  border: 1px black solid;
+  text-align: center
+}
+
+nav{
+  border: 1px black solid;
+  font-size: 20px;
+  text-align: center
+}
+
+header{
+  font-size: 30px;
+  color: #155a5e;
+  text-align: center
+}
+
+a {color:#155a5e}
+a:visited {color: #155a5e;}
+a:hover {color:black;}
+
+.column {
+  float: left;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}

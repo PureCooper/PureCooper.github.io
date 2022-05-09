@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pharathen</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <div class="floatleft">
+      <img src="pharathen.jpg" alt="pharathen" usemap="#pharathen">
+      <a href="javascript:window.history.back();"><img class="over-img" src="backarrow.png" alt="backarrow"></a>
+      <map name="pharathen">
+        <area shape="rect" coords="529,1452,676,1593" href="portlyson.html" alt="Port Lyson">
+      </map>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="jquery.rwdImageMaps.min.js"></script>
+    <script>
+      $(document).ready(function(e) {
+        $('img[usemap]').rwdImageMaps();
+      });
+    </script>
+
+  </body>
+</html>

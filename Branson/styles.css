@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F5F5DC;
+}
+
+header {
+  background-image: url(banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  border: 10px black solid;
+}
+
+header img {
+  width: 25%;
+}
+
+a img:hover {
+  opacity: .8;
+}
+
+footer {
+  background-color: #E6E6AE;
+  text-align: center;
+  font-size: 1vw;
+}
+
+figcaption {
+  text-align: right;
+  position: relative;
+  right: 10%;
+  font-family: 'Fredoka One', cursive;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: .9vw;
+}
+
+div p {
+  padding: 40px;
+  font-size: 1.8vw;
+  text-align: center;
+}
+
+.secondarynav {
+  z-index: 1;
+  top: 0px;
+  position: sticky;
+  flex-direction: row;
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 2.5vw;
+  background-color: #E6E6AE;
+  border: 3px black solid;
+}
+
+a:link {
+  color: black;
+}
+
+.secondarynav a:visited {
+  color: black;
+}
+
+.secondarynav a:hover {
+  color: gray;
+}
+
+.secondarynav a {
+  margin: 10px;
+
+}
+
+.secondaryfooter {
+  background-color: #F5F5DC;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #F5F5DC;
+}
+
+.flex-container div {
+  flex-basis: 620px;
+  margin: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 3px black solid;
+  padding: 5px;
+  flex-grow: 1;
+  position: relative;
+}
+
+.flex-container img {
+  width: 100%;
+  outline: 2px solid black;
+}
+
+.flex-container h1 {
+  text-align: center;
+  background-color: rgb(169,169,169, .7);
+  font-size: 1.6vw;
+  outline: 2px solid black;
+  margin-top: 3px;
+  font-family: 'Fredoka One', cursive;
+  font-family: 'Space Grotesk', sans-serif;
+
+}
+
+.bio {
+  display: flex;
+  flex-direction: row;
+  background-color: #E6E6AE;
+
+}
+.bio div {
+  width: 100%;
+  margin-bottom: 60px;
+}
+.bio figure {
+  width: 100%;
+  margin-bottom: 60px;
+}
+.info {
+  margin-top: 40px;
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.info h1 {
+  font-size: 3vw;
+  text-decoration: underline;
+}
+
+.diffp p {
+  padding: 10px;
+  font-size: 1.55vw;
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Fredoka One', cursive;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.photo {
+  margin-top: 50px;
+}
+
+.photo img {
+  width: 90%;
+  outline: 3px solid black;
+}
+
+.secretlink {
+  position: absolute;
+  top: 19%;
+  left: 45.8%;
+  font-size: 1.3vw;
+  opacity: 0;
+}

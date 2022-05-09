@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script>
+      function printQuery() {
+        var query = window.location.search.substring(1);
+        var vars = query.split("&");
+
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split("=");
+            document.write(pair[0] + ": " + pair[1] + "<br />");
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Thank You!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+      <img class="logo" src="logo.png" alt="Logo">
+    </header>
+
+    <section>
+      <h2>Thank you for reaching out! We will be in touch soon.</h2>
+
+      <script>
+        printQuery();
+      </script>
+    </section>
+
+
+    <footer>
+      &bull; <a href= "mailto:andys@custard.com"> andys@custard.com</a> &bull; <a href= "tel:+14178813500">417-881-3500</a>
+    </footer>
+
+  </body>
+</html>

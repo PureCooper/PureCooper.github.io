@@ -1,0 +1,62 @@
+html {
+  background-color: #C4C7F7;
+}
+table{
+  border: 2px solid black;
+  width:100%;
+  table-layout: fixed;
+  box-shadow: 5px 10px;
+  border-radius: 5px;
+}
+tr {
+  border: 2px solid black;
+}
+td {
+  border: 2px solid black;
+  text-align: center;
+}
+th {
+  border: 2px solid black;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  text-decoration-line: underline;
+}
+div {
+  width: 60%;
+}
+.wakeup {
+  background-color: #ADD8E6;
+}
+.kevin {
+  background-color: grey;
+}
+.physics {
+  background-color: #301934;
+}
+.webdev {
+  background-color: #097969;
+}
+.lunch {
+  background-color: #A38523;
+}
+.study {
+  background-color: #096B42;
+}
+.calc {
+  background-color: #975628;
+}
+.dinner {
+  background-color: #87489D;
+}
+.free {
+  background-color: #A54858;
+}
+.bed {
+  background-color: #1E2263;
+}
+.timeday {
+  background-color: black;
+  color: white;
+}

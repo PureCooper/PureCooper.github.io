@@ -1,0 +1,192 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+nav {
+  text-align: center;
+  font-size: 2vw;
+  position: sticky;
+  top: 0px;
+  padding: 30px;
+}
+h1 {
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: 1.4vw;
+  text-align: center;
+  text-decoration: underline;
+}
+body{
+  background-image: url(background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p {
+  margin-bottom: 10px;
+}
+section {
+  background-color: rgb(173,216,230, 0.7);
+  display: block;
+  padding: 15px;
+  border: 3px solid	#008080;
+}
+th {
+  text-decoration: underline;
+  padding: 5px;
+}
+td {
+  font-size: 1.2vw;
+  padding-right: 10px;
+}
+table {
+  margin: auto;
+}
+.warning {
+  font-size: .9vw;
+  text-align: center;
+  margin: 5px;
+  color: darkred;
+}
+.container {
+  position: relative;
+  margin-bottom: 20px;
+}
+.container img {
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+.homecontainer {
+  position: relative;
+  margin-bottom: 20px;
+}
+.homecontainer img {
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+.social {
+  position: relative;
+  top: 2px;
+}
+.overlap {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  font-size: 2vw;
+}
+.pagetitle {
+  position: absolute;
+  top: 35%;
+  left: 27.5%;
+  font-size: 2vw;
+}
+.aboutus {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  font-size: 2vw;
+  margin-right: 5%;
+}
+.pricing {
+  font-size: 2vw;
+  margin: auto;
+  width: 40%;
+}
+.pricing h1 {
+  text-align: center;
+}
+.aboutus h1 {
+  text-align: center;
+}
+.left {
+  margin-left: 15px;
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: darkblue;
+}
+@media (min-width:576px)
+{
+  .left {
+    float: left;
+  }
+  .pricing {
+    position: absolute; top: 5%; left: 27%; font-size: 2vw; margin-right: 5%;
+  }
+  nav img {
+    width: 15px;
+  }
+  .overlap {
+    position: static;
+    width: 85%;
+    margin: auto;
+  }
+  .overlap {
+    position: static;
+    width: 85%;
+    margin: auto;
+  }
+  .aboutus {
+    position: static;
+    width: 85%;
+    margin: auto;
+  }
+}
+@media (min-width:768px)
+{
+  nav img {
+    width: 20px;
+  }
+}
+@media (min-width: 992px)
+{
+  .pricing {
+    width: 50%;
+    position: absolute;
+    top: 5%;
+    left: 23%;
+    margin: auto;
+  }
+  .left {
+    float: left;
+  }
+  nav img {
+    width: 30px;
+  }
+  .homecontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    border: 4px #008080 solid;
+    padding: 15px;
+    background-color: #8BA1A9;
+  }
+  .homecontainer img {
+    flex-basis: 70%;
+    order: 2;
+    display: inline-block;
+    width: 30%;
+  }
+  .overlap {
+    width: 40%;
+    font-size: 1.7vw;
+    margin-right: 10px;
+  }
+  .aboutus {
+    width: 40%;
+    font-size: 1.7vw;
+    margin-right: 10px;
+  }
+}
