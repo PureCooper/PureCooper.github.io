@@ -9,7 +9,7 @@ a:active {
     color: black;
     font-weight: bold;
 }
-a:link {
+.nav-link:link {
     color: black;
 }
 h1 {
